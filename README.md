@@ -14,3 +14,5 @@ Relógio desenvolvido apenas praticar aprendizados de JavaScript.
   <img src="https://user-images.githubusercontent.com/99045923/175174227-9263f751-64aa-40aa-8b0d-e70a5efba4c1.jpeg" height="720px">
   
 </div>
+
+<a href="https://3lucasrs.github.io/simple-web-clock/" target="_blank">Clique para acesar a página</a>
