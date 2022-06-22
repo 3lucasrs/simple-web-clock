@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Digital-7;
+    src: url(../fonts/digital-7.ttf)
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #262626;
+}
+
+.relogio {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hora,
+.minutos,
+.segundos {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Digital-7";
+    font-weight: 400;
+    font-size: 10em;
+    color: #e89700;
+}
+
+@media (max-width: 480px) {
+    .relogio {
+        flex-direction: column;
+    }
+
+    #divisor {
+        display: none;
+    }
+}
